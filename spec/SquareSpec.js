@@ -7,6 +7,10 @@ describe('Square', () => {
     it('a square with a negative integer', () => {
       expect(() => { new Square(-1) }).toThrowError('size should be a positive number')
     })
+
+    it('a failing test for error throwing', () => {
+      expect(() => { new Square(2) }).toThrowError('size should be a positive number')
+    })
   })
 
   describe('#area', () => {
