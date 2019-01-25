@@ -37,6 +37,8 @@ Example src and spec files are included that demonstrate the syntax and file str
 
 * A matcher to compare equality between objects and arrays
 * A block that lets you execute some code before each test
+* Displaying the tests in the body of the page instead of in the console
+* Inculde the full stack trace in the body of the page when encountering errors
 
 
 ## Contributors/Sources
