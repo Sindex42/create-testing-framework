@@ -15,12 +15,12 @@ describe('Square', () => {
 
   describe('#area', () => {
     describe('calculates the area', () => {
-      it('passing test', () => {
+      it('toEqual matcher passing test', () => {
         let square = new Square(4)
         expect(square.area()).toEqual(16)
       })
 
-      it('failing test', () => {
+      it('toEqual matcher failing test', () => {
         let square = new Square(4)
         expect(square.area()).toEqual(17)
       })

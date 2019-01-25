@@ -20,12 +20,23 @@ I used this framework to TDD an [event planner single page app](https://github.c
 
 1. Open the SpecRunner file in your browser `open SpecRunner.html`
 2. Open the developer console to view your tests, e.g. in Chrome:  
-  `ctrl + shift + J` (windows) or 
+  `ctrl + shift + J` (windows) or
  `cmd + option + J` (mac)
 
 ### Adding your own tests
 
 Example src and spec files are included that demonstrate the syntax and file structure. If you add any additional files, be sure to include them in SpecRunner.html.
+
+## Matchers
+
+* ToEqual: tests equality between your actual and expected values using `===`
+* ToContain: tests whether an expected value is included in an array
+* ToThrowError : tests if an expected error is thrown after executing a block
+
+## Future direction
+
+* A matcher to compare equality between objects and arrays
+* A block that lets you execute some code before each test
 
 
 ## Contributors/Sources
