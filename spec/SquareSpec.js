@@ -1,19 +1,15 @@
 describe('Square', function () {
   describe('#area', function () {
     describe('calculates the area', function () {
-      it('expectEquality', function () {
+      it('passing test', function () {
         let square = new Square(4)
-        expectEquality(square.area(), 16)
+        expect(square.area()).toEqual(16)
       })
 
-      it('expect().toBe', function () {
-        let square = new Square(4)
-        expect(square.area()).toBe(16)
-      })
 
-      it('expect().notToBe', function () {
+      it('failing test', function () {
         let square = new Square(4)
-        expect(square.area()).notToBe(17)
+        expect(square.area()).toEqual(17)
       })
     })
   })
